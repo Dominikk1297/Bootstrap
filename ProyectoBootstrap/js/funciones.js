@@ -11,6 +11,6 @@ function inicializarEventos()
 
 function presionBoton1()
 {
-  $('.mod').css('background-color', 'grey');
-  $('.mod').css('color', 'black');
+  $('body').css('background-color', 'rgb(47, 45, 45)');
+  $('body').css('color', 'white');
 }
