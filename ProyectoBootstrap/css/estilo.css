@@ -1,0 +1,59 @@
+@font-face {
+	font-family: Comfortaa;
+    src:url(../fuentes/Comfortaa-Regular.ttf);
+}
+body{
+    font-family:Comfortaa;
+}
+.mod {
+background-color:purple;
+color:white;
+height: 70px;
+}
+.menu{
+color:white !important;
+}
+.active{
+color:#be63f2 !important;
+}
+.social{
+    width:16px;
+    height:16px;
+}
+.list{
+    height:160px;
+}
+.thumbnail {
+    position: relative;
+    width:100%;
+   }
+   .caption {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+   }
+
+   /*Animacion Foto*/
+.photo{
+    position:relative;
+    overflow:hidden;
+    margin:10px 0;
+}
+.photo img {
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.photo:hover img {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.photo-details{
+    position:absolute;
+    bottom:25px;
+    left:25px;
+    z-index:9000;
+}
